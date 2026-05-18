@@ -7,6 +7,7 @@ import WarehouseSection from '../../components/WarehouseSection/WarehouseSection
 import RolesSection from '../../components/RolesSection/RolesSection';
 import Features from '../../components/Features';
 import MarketplaceSection from '../../components/MarketplaceSection/MarketplaceSection';
+import MechanizationSection from '../../components/MechanizationSection/MechanizationSection';
 import RegistrationCTA from '../../components/RegistrationCTA';
 import Footer from '../../components/Footer';
 import { useScrollAnimations } from '../../hooks/useScrollAnimations';
@@ -23,6 +24,7 @@ const LandingPage = () => {
       <FarmerJourney />
       <WarehouseSection />
       <RolesSection />
+      <MechanizationSection />
       <Features />
       <MarketplaceSection />
       <RegistrationCTA />
